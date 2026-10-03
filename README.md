@@ -30,19 +30,19 @@ The repository includes sales workbooks for 2020, 2021, and 2022, along with sup
 
 ### Executive Dashboard
 
-![Executive Dashboard](Screenshots/01_Executive_Dashboard.png)
+![Executive Dashboard](Screenshots/01_Executive_Dashboard.png.png)
 
 ### Sales Map
 
-![Sales Map](Screenshots/02_Sales_Map.png)
+![Sales Map](Screenshots/02_Sales_Map.png.png)
 
 ### Product Detail
 
-![Product Detail](Screenshots/03_Product_Detail.png)
+![Product Detail](Screenshots/03_Product_Detail.png.png)
 
 ### Customer Detail
 
-![Customer Detail](Screenshots/04_Customer_Detail.png)
+![Customer Detail](Screenshots/04_Customer_Detail.png.png)
 
 ## Repository Structure
 
