@@ -1,0 +1,215 @@
+# Project Notes
+
+## Data Tables
+
+The Power BI report uses the following tables:
+
+- Sales Data
+- Customer Lookup
+- Product Lookup
+- Product Categories Lookup
+- Product Subcategories Lookup
+- Calendar Lookup
+- Territory Lookup
+- Returns Data
+
+The Sales Data contains sales information for 2020, 2021, and 2022. The lookup tables provide supporting information about customers, products, categories, dates, territories, and returns.
+
+## DAX Measures
+
+The report uses DAX measures to calculate important business metrics and support interactive analysis.
+
+Main measures used in the report include:
+
+- Total Revenue
+- Total Orders
+- Total Profit
+- Total Returns
+- Return Rate
+- Total Customers
+- Average Revenue Per Customer
+- Previous Month Revenue
+- Previous Month Orders
+- Previous Month Returns
+- Revenue Target
+- Revenue Target Gap
+- Revenue Target Gap with Arrow
+- Order Target
+- Order Target Gap
+- Profit Target
+- Profit Target Gap
+- Adjusted Profit
+- Average Retail Price
+- Product Cost
+
+Additional measures are used for customer-level and product-level analysis.
+
+## KPIs
+
+The Executive Dashboard contains the following major KPIs:
+
+- Total Revenue
+- Total Orders
+- Total Profit
+- Return Rate
+- Monthly Revenue
+- Monthly Orders
+- Monthly Returns
+
+The Product Detail page also compares:
+
+- Monthly Revenue vs. Target
+- Monthly Orders vs. Target
+- Monthly Profit vs. Target
+
+The Customer Detail page provides customer-level metrics such as:
+
+- Total Revenue
+- Total Orders
+- Average Revenue Per Customer
+- Total Customers
+
+## Filters and Slicers
+
+The report provides interactive filters and slicers for analysis.
+
+### Executive Dashboard
+
+- Year
+- Continent
+
+### Map
+
+- Continent
+
+### Customer Detail
+
+- Year
+- Customer Metric Selection
+
+### Product Detail
+
+- Product Metric Selection
+- Price Adjustment (%)
+- Product selection through drillthrough
+
+These filters allow users to analyze the report based on different time periods, locations, products, and customer-related metrics.
+
+## Data Model
+
+The report follows a relational data model where the Sales Data table acts as the main transactional table and the lookup tables provide descriptive information.
+
+The main dimensions include:
+
+- Customer
+- Product
+- Product Category
+- Product Subcategory
+- Calendar
+- Territory
+
+The model allows sales information to be analyzed across different dimensions such as date, customer, product, category, subcategory, and geographic territory.
+
+The Product Detail and Customer Detail pages also use drillthrough functionality to provide more detailed analysis for selected products and customers.
+
+## Key Insights
+
+The dashboard is designed to help analyze:
+
+- Revenue and order trends over time.
+- Sales performance across different geographic regions.
+- Product and product-category performance.
+- Customer purchasing behavior.
+- Return patterns and return rates.
+- Revenue, order, and profit performance against targets.
+- Factors associated with customer and product performance.
+
+The Executive Dashboard provides a high-level overview, while the Product Detail and Customer Detail pages allow users to investigate specific areas in greater detail.
+
+## Report Pages
+
+The Power BI report contains the following pages:
+
+### 1. Executive Dashboard
+
+Provides a high-level view of revenue, orders, profit, returns, product categories, and sales trends.
+
+### 2. Map
+
+Provides a geographic view of orders by country and allows analysis by continent.
+
+### 3. Product Detail
+
+Provides detailed analysis for selected products, including revenue, profit, orders, returns, and target comparisons.
+
+### 4. Customer Detail
+
+Provides customer-level analysis including revenue, orders, customer metrics, income level, occupation, and customer trends.
+
+### 5. Decomposition Tree
+
+Allows users to break down total orders across product-related dimensions such as category, subcategory, and product.
+
+### 6. Key Influencers
+
+Uses Power BI's Key Influencers visual to explore factors associated with customer and product-related metrics.
+
+### 7. New Card Demo
+
+Demonstrates KPI/card-based reporting including revenue, orders, profit, returns, and target-related metrics.
+
+### 8. Category Tooltip
+
+A hidden tooltip page used to provide additional information when interacting with category-related visuals.
+
+## Data Preparation
+
+The source data consists of Excel files containing sales data for 2020, 2021, and 2022 along with supporting lookup tables.
+
+Power Query is used to:
+
+- Import the source files.
+- Combine the yearly sales data.
+- Prepare the data for analysis.
+- Transform and organize the source columns.
+- Create a structured dataset for the Power BI data model.
+
+## Visualization Techniques
+
+The report uses multiple Power BI visuals, including:
+
+- KPI cards
+- Cards
+- Line charts
+- Area charts
+- Bar charts
+- Donut charts
+- Maps
+- Tables
+- Gauges
+- Decomposition Tree
+- Key Influencers
+
+Interactive elements such as slicers, drillthrough, tooltips, and metric-selection controls are used to improve dashboard exploration.
+
+## Challenges and Learning
+
+Through this project, I practiced:
+
+- Importing and combining multiple Excel datasets.
+- Data preparation using Power Query.
+- Building relationships between fact and lookup tables.
+- Creating DAX measures.
+- Creating KPI and target calculations.
+- Designing interactive Power BI dashboards.
+- Using drillthrough pages.
+- Creating report tooltips.
+- Using Decomposition Tree for hierarchical analysis.
+- Using Key Influencers to explore contributing factors.
+- Designing dashboards for business-oriented analysis.
+
+## Project Outcome
+
+The final Power BI report provides an interactive environment for exploring AdventureWorks sales performance across time, geography, products, and customers.
+
+The project demonstrates practical skills in data preparation, data modeling, DAX, visualization, and interactive business intelligence reporting.

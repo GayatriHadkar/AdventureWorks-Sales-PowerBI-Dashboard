@@ -1,0 +1,47 @@
+# AdventureWorks Sales Dashboard
+
+## Project Overview
+
+This project uses Microsoft Power BI to explore AdventureWorks sales data across multiple years. It provides interactive views of sales performance, products, customers, and geographic distribution.
+
+## Project Objectives
+
+- Analyze sales performance over time.
+- Explore product and customer trends.
+- Examine sales distribution by geography.
+- Enable interactive analysis using filters and report pages.
+- Present business data through visual reports.
+
+## Dataset
+
+The dataset includes sales data for 2020, 2021, and 2022, along with supporting customer, product, product category, product subcategory, calendar, territory, and returns data.
+
+## Tools Used
+
+- Power BI Desktop
+- Power Query
+- DAX
+- Microsoft Excel
+
+## Report Pages
+
+- Executive Dashboard
+- Sales Map
+- Product Detail
+- Customer Detail
+- Decomposition Tree
+- Key Influencers
+- New Card Demo
+
+## Data Preparation
+
+The source files are loaded into Power BI and prepared for analysis. Power Query is used for data transformation, and the data model supports interactive reporting.
+
+## Key Findings
+
+- The dashboard provides an interactive view of sales performance across 2020–2022.
+- Sales can be analyzed across different product categories, customers, territories, and time periods.
+- The Map page provides a geographic view of sales distribution across territories.
+- The Product Detail and Customer Detail pages enable more focused analysis of individual products and customers.
+- The Decomposition Tree and Key Influencers visuals provide additional ways to explore factors affecting sales performance.
+- Interactive filters and report-level navigation allow users to explore the data from different perspectives.
